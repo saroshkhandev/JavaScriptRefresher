@@ -14,3 +14,25 @@ const printName = name => {
 };
 
 printName(myName);
+
+// functions with no arguments
+
+const printString = () => {
+    console.log("Hello");
+};
+
+printString();
+
+// multiple parameters
+
+const add = (a, b) => {
+    console.log(a+b);
+};
+
+add(2,3);
+
+// in short form
+
+const Add = (a, b) => console.log(a+b);
+
+Add(2, 5);
